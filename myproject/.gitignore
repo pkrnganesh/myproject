@@ -1,29 +1,8 @@
-#Vagrant file
-.vagrant/
 /env
-Vagrantfile
-# Byte-code files
-*.pyc
-
-# IntelliJ Project files
-.idea
-
-# OSX auto-save files
-**/*/.DS_Store
-
-# vagrant files
-**/*/.vagrant/*
-
-# Editor Config
-.editorconfig
 
 # pyenv folder
 pyenv
 **/*/pyenv/*
-
-# .pyenv folder only for source maping in intellij IDEA
-.pyenv
-**/*/.pyenv/*
 
 # ignore index.html
 webapp/src/index.html
@@ -31,47 +10,5 @@ webapp/src/index.html
 webapp/node_modules
 **/*/node_modules/*
 
-# build
-webapp/build
-**/*/build/*
-
-# dist
-webapp/dist
-**/*/dist/*
-
-# dist
-webapp/dist-old
-**/*/dist-old/*
-
-# Celery PID
-celeryd.pid
-
-#file uploads
-frejun/.file_uploads
-
-frejun/frejun/client_secret.json
-frejun/frejun/token.pickle
-frejun/frejun/localsettings.py
-
-*.DS_Store
-
-*/celerybeat-schedule
-*/celerybeat.pid
-
-dev-setup/google-storage-service-account-prod.json
-
-#Audio files
-*.mp3
-*.wav
-*.flac
-*.ogg
-*.m4a
-*.mp4
-
 *.vscode
 .vs/slnx.sqlite
-.vs/VSWorkspaceState.json
-.vs/frejun/v16/.suo
-
-# Key files
-*.pem
